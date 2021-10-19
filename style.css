@@ -11,19 +11,20 @@ body {
 	font-family: sans-serif;
 	display: flex;
 	flex-direction: column;
-	/* align-items:center; */
 }
 
 .header {
 	background-color: var(--dark);
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: space-between;
+	padding: 15px 15%;
 }
 
 .nav {
 	display: flex;
 	align-items: stretch;
+	justify-content: space-between;
 }
 
 .logo {
@@ -32,7 +33,12 @@ body {
 	font-weight: bold;
 }
 
+.hero {
+	display: flex;
+}
+
 .hero-main {
+	display: flex;
 	font-size: 48px;
 	font-weight: bold;
 	color: var(--light);
@@ -51,7 +57,10 @@ ul {
 	margin: 0;
 	padding: 0;
 	color: var(--secondary);
-	/* display: flex; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
 }
 
 li {

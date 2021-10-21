@@ -171,3 +171,12 @@ cite {
 	background-color: var(--bluebutton);
 	border: 2px solid var(--light)
 }
+
+.footer {
+	background-color: var(--dark);
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	padding: 30px 15%;
+	color: var(--secondary)
+}

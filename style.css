@@ -36,7 +36,6 @@ body {
 .hero-wrapper {
 	display: flex;
 	justify-content: space-between;
-	/* flex-wrap: wrap; */
 	margin: 90px 0;
 	gap: 25px;
 }
@@ -53,7 +52,7 @@ body {
 	color: var(--light);
 }
 
-.hero-secondary {
+.secondary {
 	font-size: 18px;
 	color: var(--secondary);
 	padding-bottom: 15px;
@@ -97,11 +96,11 @@ a {
 	color: var(--secondary);
 }
 
-.content {
+/* .content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
+} */
 
 .info {
 	display: flex;
@@ -127,7 +126,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* flex: 0 1 auto; */
 }
 
 .subtext {
@@ -161,12 +159,15 @@ cite {
 
 .action-wrapper {
 	margin: 36px 15%;
-	/* display: flex; */
-	justify-content: stretch;
+	padding: 30px 8%;
 	background-color: var(--bluebutton);
 	border-radius: 5px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.action {
-	
+.action-wrapper button {
+	background-color: var(--bluebutton);
+	border: 2px solid var(--light)
 }
